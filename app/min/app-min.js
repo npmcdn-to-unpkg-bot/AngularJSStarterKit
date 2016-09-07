@@ -1,0 +1,1 @@
+!function(){"use strict";function n(){}angular.module("app",["ui.router","firebase","ngAnimate","app.sample"]).run(n),n.$inject=[]}();

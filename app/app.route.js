@@ -10,7 +10,7 @@
   function routerConfig($stateProvider, $urlRouterProvider) {
 
     // 404
-    $urlRouterProvider.otherwise('/#');
+    $urlRouterProvider.otherwise('/');
     // Index
     $urlRouterProvider.when('', '/');
 
@@ -18,12 +18,12 @@
     $stateProvider
 
       // Sample
-      .state('sample', {
-        url: '/#',
-        templateUrl: 'app/components/sample/sample.tpl.html',
-        controller: 'sampleCtrl',
-        controllerAs: 'vm'
-      });
+      // .state('sample', {
+      //   url: '/',
+      //   templateUrl: 'app/components/sample/sample.tpl.html',
+      //   controller: 'sampleCtrl',
+      //   controllerAs: 'vm'
+      // });
   }
 
 })();

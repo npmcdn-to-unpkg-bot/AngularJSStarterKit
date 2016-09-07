@@ -1,0 +1,1 @@
+!function(){"use strict";function e(e,r){r.otherwise("/"),r.when("","/")}angular.module("app").config(e),e.$inject=["$stateProvider","$urlRouterProvider"]}();
